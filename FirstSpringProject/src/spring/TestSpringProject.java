@@ -5,8 +5,9 @@ import org.springframework.context.support.ClassPathXmlApplicationContext;
 public class TestSpringProject {
 	public static void main(String[] args) {
 		ApplicationContext context = new ClassPathXmlApplicationContext("SpringConfig.xml");
-		
+
 		Restaurant restaurantObj = (Restaurant) context.getBean("restaurantBean");
 		restaurantObj.greetCustomer();
 	}
 }
+//this was my second attempt
