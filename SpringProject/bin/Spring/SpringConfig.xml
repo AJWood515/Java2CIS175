@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns=http://www.springframework.org/schema/beans
+	xmlns:xsi=http://www.w3.org/2001/XMLSceha-instance
+	xsi:schemaLocation="http://www.springframework.org/schema/beans http://
+www.springframework.org/schema/beans/spring-beans-3.2.xsd">
+
+	<bean id="accountService" class="edu.dmacc.spring.AccountServicelmpl">
+		<property name="accountDao" ref="accountDao" />
+	</bean>
+	<bean id="accountDao" class="edu.dmacc.spring.AccountDaoInMemorylmpl">
+	</bean>
+</beans>
