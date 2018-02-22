@@ -1,7 +1,8 @@
 package beans;
 
 import java.util.Date;
-
+//This is the pdf Account excerise in the student folder that i am trying to
+// follow along after serveral failed attempts
 public class Account {
 
 	private    long id;
@@ -10,7 +11,7 @@ public class Account {
 	private    Date accessTime;
 	private    boolean locked;
 	public    Account(){
-		
+
 	}
 	public    Account(long id,String ownerName, double balance){
 		this.id = id;
@@ -47,8 +48,6 @@ public class Account {
 	public void setLocked(boolean locked) {
 		this.locked = locked;
 	}
-	
-	
+
+
 }
-
-
